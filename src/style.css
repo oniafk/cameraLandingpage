@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Only keeping canvas-specific styles that Tailwind doesn't easily handle */
+#app canvas {
+  display: block;
+  pointer-events: auto;
+}
+
+/* Stats and GUI controls */
+.stats {
+  z-index: 100 !important;
+}
+
+.dg {
+  z-index: 100 !important;
+}
