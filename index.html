@@ -9,7 +9,6 @@
   <body
     class="m-0 p-0 bg-white text-gray-800 font-sans overflow-x-hidden h-full"
   >
-    <!-- Navigation bar -->
     <nav
       class="fixed top-0 left-0 w-full h-[70px] bg-white/90 flex justify-between items-center px-10 shadow-md z-50"
     >
@@ -54,25 +53,25 @@
       </div>
     </nav>
 
-    <!-- 3D scene container -->
     <div
       id="app"
       class="fixed top-0 left-0 w-full h-full z-10 pointer-events-none"
     ></div>
 
-    <!-- Content sections overlaid on the 3D scene -->
     <main class="relative z-20 pt-[70px]">
       <section
         id="section-1"
         class="relative h-screen w-full flex items-center"
       >
         <div class="relative max-w-[600px] p-8 ml-[60px]">
-          <h2 class="text-7xl font-bold mb-6 text-[#e20819]">Take pictures anywhere</h2>
+          <h2 class="text-7xl font-bold mb-6 text-[#e20819]">
+            Take pictures anywhere
+          </h2>
           <p class="text-lg mb-10">
             Described as the "world's smallest and lightest DSLR camera"
           </p>
           <button
-            class="bg-orange-700 py-2 px-3 border-2 text-2xl text-white rounded-full"
+            class="bg-orange-700 py-3 px-5 border-2 text-xl text-white rounded-full"
           >
             Know more
           </button>
@@ -83,10 +82,10 @@
         id="section-2"
         class="relative h-screen w-full flex items-center justify-end pr-10"
       >
-        <div
-          class="relative max-w-[600px] p-8 bg-white/70 rounded-lg backdrop-blur-sm shadow-md mr-0"
-        >
-          <h2 class="text-6xl font-bold mb-6 text-[#e20819]">Superior Optics</h2>
+        <div class="relative max-w-[600px] p-8">
+          <h2 class="text-6xl font-bold mb-6 text-[#e20819]">
+            Superior Optics
+          </h2>
           <p class="text-base">
             With the 5fps high-speed burst mode, all-cross-sensor 9-point AF
             sensor, the regular ISO range between 100 and 12800 (25600 when
@@ -114,17 +113,21 @@
         id="section-3"
         class="relative h-screen w-full flex items-end pb-16"
       >
-        <div class="flex w-full px-10 justify-between">
-          <div class="w-[30%] bg-white/70 rounded-lg backdrop-blur-sm shadow-md p-6">
-            <h2 class="text-3xl font-bold mb-4 text-[#e20819]">Intuitive Controls</h2>
-            <p class="text-base">
-              Easy to use interface with customizable settings for both beginners
-              and professionals.
+        <div class="flex w-full h-full px-10 justify-between">
+          <div class="w-[30%] p-6 h-full flex flex-col justify-end">
+            <h2 class="text-3xl font-bold mb-4 text-[#e20819]">
+              Intuitive Controls
+            </h2>
+            <p class="text-sm">
+              Easy to use interface with customizable settings for both
+              beginners and professionals.
             </p>
           </div>
-          
-          <div class="w-1/6 bg-white/70 rounded-lg backdrop-blur-sm shadow-md p-6">
-            <h2 class="text-3xl font-bold mb-4 text-[#e20819]">Specifications</h2>
+
+          <div class="w-1/6 h-full grid content-center items-center p-6">
+            <h2 class="text-3xl font-bold mb-4 text-[#e20819]">
+              Specifications
+            </h2>
             <table class="w-full border-collapse text-sm">
               <tbody>
                 <tr class="border-b border-gray-300">
@@ -149,6 +152,372 @@
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+      </section>
+      <section id="section-4" class="relative h-screen w-full flex items-end">
+        <div>
+          <div class="flex w-full bg-white h-full px-10 justify-center">
+            <div class="w-[70%] p-6 h-full flex flex-col justify-center">
+              <h2 class="text-5xl text-center font-bold mb-4 text-[#e20819]">
+                Compact, Intuitive, Creative
+              </h2>
+              <p class="text-sm w-[60%] text-center mx-auto">
+                The Canon EOS 100D packs serious DSLR capability into a
+                pocketable body, featuring a vivid 3-inch, 1,040k-dot
+                capacitive-touch LCD for effortless composition and control. It
+                delivers full manual shooting flexibility alongside a Scene
+                Intelligent Auto mode for newcomers, while Creative Filters and
+                a built-in Feature Guide make experimentation and learning both
+                fun and accessible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="section-5"
+        class="relative h-screen w-full flex flex-col items-center py-20 bg-gray-50"
+      >
+        <h2 class="text-4xl font-semibold mb-8 text-[#e20819]">Get Inspired</h2>
+
+        <div class="flex w-full h-[80%] max-w-6xl gap-6 px-8">
+          <div
+            class="flex-none w-1/2 relative h-full rounded-lg overflow-hidden shadow-lg transition-transform duration-300 ease-out hover:-translate-y-4 cursor-pointer"
+          >
+            <img
+              src="public/images/canon web1.jpg"
+              alt="How to cover a motorsports event"
+              class="object-cover w-full h-full"
+            />
+            <button
+              class="absolute top-4 right-4 bg-black bg-opacity-50 p-2 rounded-full"
+            >
+              <svg
+                class="w-5 h-5 text-white"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 18.343l-6.828-6.829a4 4 0 010-5.656z"
+                />
+              </svg>
+            </button>
+            <div
+              class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-4"
+            >
+              <h3 class="text-white text-lg font-semibold leading-tight">
+                How to cover a motorsports event with a professional
+                videographer
+              </h3>
+              <p class="text-white text-sm mt-2">Videography Tips</p>
+            </div>
+          </div>
+
+          <div class="flex w-1/2 gap-6">
+            <div
+              class="bg-white w-1/2 rounded-lg overflow-hidden shadow-lg flex flex-col transition-transform duration-300 ease-out hover:-translate-y-4 cursor-pointer"
+            >
+              <div class="relative h-48">
+                <img
+                  src="public/images/canonweb2.jpg"
+                  alt="Astrophotography guide"
+                  class="object-cover w-full h-full"
+                />
+                <button
+                  class="absolute top-4 right-4 bg-black bg-opacity-50 p-2 rounded-full"
+                >
+                  <svg
+                    class="w-5 h-5 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 18.343l-6.828-6.829a4 4 0 010-5.656z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="p-4 flex-1 flex flex-col">
+                <h3 class="text-lg font-semibold mb-2">
+                  An Astrophotographer's Guide To Taking Incredible Photos Of
+                  The Night Sky
+                </h3>
+                <p class="text-gray-700 text-sm flex-1">
+                  Professional astrophotographer, Larryn Rae, gives us a
+                  comprehensive look into his best tips and techniques for
+                  taking incredible astrophotography, including top locations
+                  around Australia, his editing process and the gear and
+                  settings he uses.
+                </p>
+                <p class="text-gray-500 text-xs mt-4">
+                  Photography Tips & Tutorials
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-white w-1/2 rounded-lg overflow-hidden shadow-lg flex flex-col transition-transform duration-300 ease-out hover:-translate-y-4 cursor-pointer"
+            >
+              <div class="relative h-48">
+                <img
+                  src="public/images/canon-camera.jpg"
+                  alt="EOS R6 Mark II vs EOS R6"
+                  class="object-cover w-full h-full"
+                />
+                <button
+                  class="absolute top-4 right-4 bg-black bg-opacity-50 p-2 rounded-full"
+                >
+                  <svg
+                    class="w-5 h-5 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 18.343l-6.828-6.829a4 4 0 010-5.656z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="p-4 flex-1 flex flex-col">
+                <h3 class="text-lg font-semibold mb-2">
+                  The Ultimate EOS R6 Mark II vs EOS R6 Comparison Guide
+                </h3>
+                <p class="text-gray-700 text-sm flex-1">
+                  The EOS R6 Mark II comes with new advantages, mainly in its
+                  video capabilities. The sensor delivers outstanding detail
+                  with 24.2 MP, compared to the 20.1 MP of the EOS R6.
+                </p>
+                <p class="text-gray-500 text-xs mt-4">
+                  Photography Tips & Tutorials
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="relative h-[80%] w-full flex flex-col items-center justify-start bg-gray-200 pb-16"
+      >
+        <div class="mt-16 text-center flex flex-col items-center">
+          <span class="block w-12 h-1 bg-black mb-2"></span>
+          <h2 class="text-2xl font-semibold">Support</h2>
+        </div>
+
+        <div
+          class="flex flex-col md:flex-row gap-8 mt-12 px-8 w-full max-w-6xl"
+        >
+          <div
+            class="flex-1 bg-white rounded-lg shadow-lg p-8 flex flex-col items-center"
+          >
+            <img
+              src="public/images/support icon.svg"
+              alt="Help icon"
+              class="mb-4 w-44 h-44"
+            />
+            <h3 class="text-lg font-medium mb-2">
+              Need help with your product
+            </h3>
+            <a
+              href="#"
+              class="text-sm text-gray-600 hover:text-red-600 inline-flex items-center"
+            >
+              Support and downloads
+              <svg
+                class="w-4 h-4 ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div
+            class="flex-1 bg-white rounded-lg shadow-lg p-8 flex flex-col items-center"
+          >
+            <img
+              src="public/images/register-icon.svg"
+              alt="Register icon"
+              class="mb-4 w-44 h-44"
+            />
+            <h3 class="text-lg font-medium mb-2">Register your product</h3>
+            <a
+              href="#"
+              class="text-sm text-gray-600 hover:text-red-600 inline-flex items-center"
+            >
+              Register now
+              <svg
+                class="w-4 h-4 ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-black text-white py-12">
+        <div
+          class="max-w-6xl mx-auto px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-8"
+        >
+          <div>
+            <h4 class="text-xs font-semibold mb-4 uppercase">
+              Canon Australia
+            </h4>
+            <ul class="space-y-2 text-xs">
+              <li><a href="#" class="hover:underline">About Canon</a></li>
+              <li>
+                <a href="#" class="hover:underline">Why Canon Business</a>
+              </li>
+              <li><a href="#" class="hover:underline">Corporate profile</a></li>
+              <li><a href="#" class="hover:underline">Sustainability</a></li>
+              <li><a href="#" class="hover:underline">Work with us</a></li>
+              <li>
+                <a href="#" class="hover:underline">Legal and compliance</a>
+              </li>
+              <li><a href="#" class="hover:underline">Community</a></li>
+              <li><a href="#" class="hover:underline">News and awards</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-semibold mb-4 uppercase">Support</h4>
+            <ul class="space-y-2 text-xs">
+              <li>
+                <a href="#" class="hover:underline">Home printer set up</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Drivers and downloads</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Register your product</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Service and repairs</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline"
+                  >MyCanon Business
+                  <span class="inline-block transform translate-y-[2px]"
+                    >↗</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Safety data sheets</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline"
+                  >End user licence agreement</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-semibold mb-4 uppercase">
+              Canon for Business
+            </h4>
+            <ul class="space-y-2 text-xs">
+              <li>
+                <a href="#" class="hover:underline">Document solutions</a>
+              </li>
+              <li><a href="#" class="hover:underline">Industry</a></li>
+              <li><a href="#" class="hover:underline">Products</a></li>
+              <li><a href="#" class="hover:underline">Software</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-semibold mb-4 uppercase">Products</h4>
+            <ul class="space-y-2 text-xs">
+              <li>
+                <a href="#" class="hover:underline">Mirrorless cameras</a>
+              </li>
+              <li><a href="#" class="hover:underline">Lenses</a></li>
+              <li><a href="#" class="hover:underline">Home printers</a></li>
+              <li><a href="#" class="hover:underline">Ink</a></li>
+              <li><a href="#" class="hover:underline">Office printers</a></li>
+              <li>
+                <a href="#" class="hover:underline"
+                  >Pro photography and video</a
+                >
+              </li>
+              <li><a href="#" class="hover:underline">Software</a></li>
+              <li><a href="#" class="hover:underline">Scanners</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-semibold mb-4 uppercase">Canon Group</h4>
+            <ul class="space-y-2 text-xs">
+              <li>
+                <a href="#" class="hover:underline"
+                  >Canon Business Services
+                  <span class="inline-block transform translate-y-[2px]"
+                    >↗</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:underline"
+                  >Canon Professional Service (CPS)
+                  <span class="inline-block transform translate-y-[2px]"
+                    >↗</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:underline"
+                  >Canon Medical Systems
+                  <span class="inline-block transform translate-y-[2px]"
+                    >↗</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:underline"
+                  >SUNSTUDIOS
+                  <span class="inline-block transform translate-y-[2px]"
+                    >↗</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Canon Experience Store</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-semibold mb-4 uppercase">Other Sites</h4>
+            <ul class="space-y-2 text-xs">
+              <li>
+                <a href="#" class="hover:underline"
+                  >Edge
+                  <span class="inline-block transform translate-y-[2px]"
+                    >↗</span
+                  ></a
+                >
+              </li>
+              <li><a href="#" class="hover:underline">MyCanon Business</a></li>
+            </ul>
           </div>
         </div>
       </section>
